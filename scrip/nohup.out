@@ -1,0 +1,97 @@
+  File "/root/tools/hisat2-2.2.0/hisat2_read_statistics.py", line 182
+    length_map = sorted(length_map.iteritems(), key=lambda (k,v):(v,k), reverse=True)
+                                                           ^
+SyntaxError: invalid syntax
+16542825 reads; of these:
+  16542825 (100.00%) were unpaired; of these:
+    2215584 (13.39%) aligned 0 times
+    13304299 (80.42%) aligned exactly 1 time
+    1022942 (6.18%) aligned >1 times
+86.61% overall alignment rate
+sort: option '--o' is ambiguous; possibilities: '--output-fmt' '--output-fmt-option'
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+  File "/root/tools/hisat2-2.2.0/hisat2_read_statistics.py", line 182
+    length_map = sorted(length_map.iteritems(), key=lambda (k,v):(v,k), reverse=True)
+                                                           ^
+SyntaxError: invalid syntax
+(ERR): Read file '../seq//SRR1916154.fastq.gz' doesn't exist
+Exiting now ...
+[E::hts_open_format] Failed to open file 3b_strain_2srt.bam
+samtools index: failed to open "3b_strain_2srt.bam": No such file or directory
+sort: option '--o' is ambiguous; possibilities: '--output-fmt' '--output-fmt-option'
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+  File "/root/tools/hisat2-2.2.0/hisat2_read_statistics.py", line 182
+    length_map = sorted(length_map.iteritems(), key=lambda (k,v):(v,k), reverse=True)
+                                                           ^
+SyntaxError: invalid syntax
+(ERR): Read file '../seq//SRR1916155.fastq.gz' doesn't exist
+Exiting now ...
+[E::hts_open_format] Failed to open file 3b_starin_3srt.bam
+samtools index: failed to open "3b_starin_3srt.bam": No such file or directory
+sort: option '--o' is ambiguous; possibilities: '--output-fmt' '--output-fmt-option'
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+  File "/root/tools/hisat2-2.2.0/hisat2_read_statistics.py", line 182
+    length_map = sorted(length_map.iteritems(), key=lambda (k,v):(v,k), reverse=True)
+                                                           ^
+SyntaxError: invalid syntax
+(ERR): Read file '../seq//SRR1916156.fastq.gz' doesn't exist
+Exiting now ...
+[E::hts_open_format] Failed to open file 3b_strain_4srt.bam
+samtools index: failed to open "3b_strain_4srt.bam": No such file or directory

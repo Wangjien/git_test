@@ -1,0 +1,2 @@
+python SRR_Acc_ck.py SRR_ck.txt  ../seq/yeast_ref ../seq > 01align.sh
+

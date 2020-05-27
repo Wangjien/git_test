@@ -1,0 +1,5 @@
+SRR1916152	Ev_strain_3
+SRR1916153	Ev_strain_4
+SRR1916154	3b_strain_2
+SRR1916155	3b_starin_3
+SRR1916156	3b_strain_4
